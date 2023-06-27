@@ -1,0 +1,32 @@
+body {
+    background-color: #E6F0FF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #f8f001,#e80be4);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin: 10px; 
+    padding: 10px; 
+ 
+  }
+
+.container {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    border-radius: 15px;
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+}
